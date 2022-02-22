@@ -8,7 +8,7 @@ import java.util.Date;
 
 
 @Data
-@Document("payment-ntt")
+@Document
 public class Payment {
     @Id
     private String id;
